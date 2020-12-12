@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="8LnnLUrjIUYQBGYS60xo-1se219HpQpZJYn69GOBX9Y" />
+	<title>jing4.tw </title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		window.fbAsyncInit = function() {
+		FB.init({
+			appId: '609458705916188',
+			xfbml: true,
+			version: 'v2.8'
+		});
+		FB.AppEvents.logPageView();
+		};
+		(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KSTFJT2');</script>
+	<!-- End Google Tag Manager -->
+	</head>
+	<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSTFJT2"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+		<div class="header container"></div>
+		<!-- /.header -->
+		<div class="container" style="padding:10px 0 0;">
+			<h2 id="jing4-tw">看見新的世界</h2>
+			<p>我現在住在台灣，大概四年。<br>
+			為了學中文來到台灣過了四年，已經習慣很多了。還有一家網路行銷公司上班了三年，一邊學軟體技術做網站，一邊投資理財。</p>	
+			<div id="share-btn">分享一下</div>
+			<div id="share"></div>
+			<a href="https://www.facebook.com/dialog/share?app_id=609458705916188&display=popup&href=http%3A%2F%2Fjing4.tw%2F&redirect_uri=http://jing4.tw/" title="Facebookでシェア">分享</a>
+		</div>
+		<!-- /.container -->
+		<div class="footer container">&copy;jing4.tw</div>
+		<!-- /.footer -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			document.getElementById("share-btn").addEventListener("click", function() {
+				FB.ui({
+					method: 'feed',
+					link: 'http://jing4.tw/',
+					caption: 'jing4.tw',
+					}, function(evt){
+						if (evt && evt.post_id) {
+							document.getElementById("share-btn").style.display = "none";
+							document.getElementById("share").value = "share";
+							document.getElementById("share").innerHTML = "感謝分享！&nbsp;&nbsp;&nbsp;確認填寫內容";
+						}
+					}
+				);
+			}, false);
+		</script>
+	</body>
+</html>
+	
